@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawfia Yeasmin - Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            color: #E6E6FA;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .project-card {
+            border: 2px solid #6a11cb;
+            border-radius: 12px;
+            padding: 20px;
+            background-color: #e3f2fd;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        .resume-page {
+            text-align: center;
+            padding: 50px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 25px;
+            background-color: #2575fc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .button:hover {
+            background-color: #6a11cb;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #E6E6FA;">Tawfia Yeasmin</h1>
+        <p>Computer Science Student | Coding Instructor | AI Enthusiast and Learner</p>
+        <p><a href="https://github.com/Silicon-Sorceress-Tawfia" target="_blank" style="color: #E6E6FA;">GitHub</a> | <a href="https://www.linkedin.com/in/aspiring-cs-kiddo-t-yeasmin/" target="_blank" style="color: #E6E6FA;">LinkedIn</a></p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about-me">
+            <h2>About Me</h2>
+            <p>I am a passionate 4th-year Computer Science student with hands-on experience in Python, Keras, YOLOv8, Hugging Face, and LaTeX. I quickly grasp and summarize research papers, and I recently developed an object detection project using YOLOv8. As a coding instructor, I have taught over 200 students in app development, AI, and Scratch, and I have strong communication and presentation skills. I am eager to contribute to CIOL's research in the Bangla Language and NLP (BNLP) and Human Machine/AI Interaction (HMAI).</p>
+        </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3><a href="https://github.com/Silicon-Sorceress-Tawfia/AI-Vision-Lab" target="_blank">AI Vision Lab: Live Object Detection</a></h3>
+                    <p>Developed a live object detection project using Python and YOLOv8, demonstrating real-time object recognition capabilities.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Safe Driving 2.0 (Ongoing)</h3>
+                    <p>Working on incorporating collision avoidance, lane departure warning, drowsiness detection, and pedestrian detection technologies to enhance road safety.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container resume-page">
+        <h2>Resume / CV</h2>
+        <p>To know more about my experience, skills, and background, please download my detailed resume or CV below:</p>
+        <a href="/mnt/data/Tawfia%20Yeasmin%20(1).pdf" class="button" download>Download Portfolio</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tawfia Yeasmin</p>
+    </footer>
+</body>
+</html>
